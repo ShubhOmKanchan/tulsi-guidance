@@ -1,26 +1,685 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+  --background: #F8F5EF;
+  --surface: #FFFDF9;
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+  --primary: #4F8F5C;
+  --secondary: #4C8CBF;
+  --accent: #D7B46A;
+  --earth: #8B5E3C;
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+  --text: #2E2E2E;
+  --text-light: #6F6F6F;
+  --border: #E7DFD2;
+
+  --font-heading: "Cormorant Garamond", serif;
+  --font-body: "Lato", sans-serif;
+}
+@keyframes leafDrift {
+
+  0% {
+    transform:
+      translate(0px,0px)
+      rotate(-4deg);
   }
+
+  25% {
+    transform:
+      translate(-18px,10px)
+      rotate(8deg);
+  }
+
+  50% {
+    transform:
+      translate(-36px,26px)
+      rotate(-10deg);
+  }
+
+  75% {
+    transform:
+      translate(-58px,42px)
+      rotate(7deg);
+  }
+
+  100% {
+    transform:
+      translate(-80px,60px)
+      rotate(-4deg);
+  }
+
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
   background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  color: var(--text);
+  font-family: var(--font-body);
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading);
+  font-weight: 600;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+
+@keyframes phone-ring {
+  0%   { transform: rotate(0deg); }
+  15%  { transform: rotate(18deg); }
+  30%  { transform: rotate(-18deg); }
+  45%  { transform: rotate(14deg); }
+  60%  { transform: rotate(-14deg); }
+  75%  { transform: rotate(8deg); }
+  100% { transform: rotate(0deg); }
+}
+section {
+  padding: 6rem 8%;
+}
+
+#offerings {
+  padding-top: 2;
+}
+
+.group:hover .phone-ring {
+  animation: phone-ring 0.7s ease-in-out;
+}
+
+/* ============================================= */
+/* Sacred Mandala Breathing */
+/* ============================================= */
+
+@keyframes mandalaBreath {
+  0% {
+    transform: scale(1);
+    opacity: 0.34;
+  }
+
+  50% {
+    transform: scale(1.045);
+    opacity: 0.48;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 0.34;
+  }
+}
+
+.animate-mandala-breath {
+  animation: mandalaBreath 9s ease-in-out infinite;
+  transform-origin: center;
+}
+/* ========================================= */
+/* Lotus Float */
+/* ========================================= */
+/* ========================================= */
+/* Butterfly Wing Flap */
+/* ========================================= */
+
+@keyframes butterflyFlap {
+
+    0%,100%{
+        transform:scaleX(1);
+    }
+
+    50%{
+        transform:scaleX(.78);
+    }
+
+}
+
+.animate-butterfly-flap{
+
+    animation:butterflyFlap .42s ease-in-out infinite;
+
+}
+
+
+/* ========================================= */
+/* Butterfly Flight */
+/* ========================================= */
+
+@keyframes butterflyFlight{
+
+    0%{
+
+        transform:
+        translate(0px,0px)
+        rotate(-8deg);
+
+        opacity:0;
+
+    }
+
+    8%{
+
+        opacity:.9;
+
+    }
+
+    18%{
+
+        transform:
+        translate(-20px,-18px)
+        rotate(8deg);
+
+    }
+
+    38%{
+
+        transform:
+        translate(12px,-55px)
+        rotate(-6deg);
+
+    }
+
+    58%{
+
+        transform:
+        translate(-18px,-88px)
+        rotate(9deg);
+
+    }
+
+    78%{
+
+        transform:
+        translate(16px,-120px)
+        rotate(-5deg);
+
+    }
+
+    100%{
+
+        transform:
+        translate(-8px,-175px)
+        rotate(0deg);
+
+        opacity:0;
+
+    }
+
+}
+
+.animate-butterfly-flight{
+
+    animation:butterflyFlight 30s ease-in-out infinite;
+
+}
+@keyframes lotusFloat {
+
+    0%{
+        transform:translateY(0px);
+    }
+
+    50%{
+        transform:translateY(-8px);
+    }
+
+    100%{
+        transform:translateY(0px);
+    }
+
+}
+
+.animate-lotus-float{
+
+    animation:lotusFloat 8s ease-in-out infinite;
+
+}
+@keyframes dustFloat {
+
+  0% {
+    transform: translateY(0px) translateX(0px);
+    opacity: 0;
+  }
+
+  10% {
+    opacity: .45;
+  }
+
+  50% {
+    transform: translateY(-22px) translateX(8px);
+    opacity: .8;
+  }
+
+  90% {
+    opacity: .3;
+  }
+
+  100% {
+    transform: translateY(-45px) translateX(-6px);
+    opacity: 0;
+  }
+
+}
+
+
+/* ========================================= */
+/* Background Glow Drift */
+/* ========================================= */
+
+/* ========================================= */
+/* Glow One */
+/* ========================================= */
+
+@keyframes glowOne {
+
+  0%{
+    transform:translate(0px,0px);
+  }
+
+  50%{
+    transform:translate(18px,-16px);
+  }
+
+  100%{
+    transform:translate(0px,0px);
+  }
+
+}
+
+.animate-glow-one{
+
+  animation:glowOne 28s ease-in-out infinite;
+
+}
+/* ========================================= */
+/* Glow Two */
+/* ========================================= */
+
+@keyframes glowTwo{
+
+  0%{
+    transform:translate(0px,0px);
+  }
+
+  50%{
+    transform:translate(-20px,12px);
+  }
+
+  100%{
+    transform:translate(0px,0px);
+  }
+
+}
+
+.animate-glow-two{
+
+  animation:glowTwo 36s ease-in-out infinite;
+
+}
+/* ========================================= */
+/* Glow Three */
+/* ========================================= */
+
+@keyframes glowThree{
+
+  0%{
+    transform:translateX(-50%) translateY(0px);
+  }
+
+  50%{
+    transform:translateX(-50%) translateY(-22px);
+  }
+
+  100%{
+    transform:translateX(-50%) translateY(0px);
+  }
+
+}
+
+.animate-glow-three{
+
+  animation:glowThree 31s ease-in-out infinite;
+
+}
+/* ========================================= */
+/* Glow Four */
+/* ========================================= */
+
+@keyframes glowFour{
+
+  0%{
+    transform:translate(0px,0px);
+  }
+
+  50%{
+    transform:translate(16px,20px);
+  }
+
+  100%{
+    transform:translate(0px,0px);
+  }
+
+}
+
+.animate-glow-four{
+
+  animation:glowFour 42s ease-in-out infinite;
+
+}
+/* ========================================= */
+/* Glow Five */
+/* ========================================= */
+
+@keyframes glowFive{
+
+  0%{
+    transform:translate(0px,0px);
+  }
+
+  50%{
+    transform:translate(-14px,-12px);
+  }
+
+  100%{
+    transform:translate(0px,0px);
+  }
+
+}
+
+.animate-glow-five{
+
+  animation:glowFive 33s ease-in-out infinite;
+
+}
+
+@keyframes offeringButterfly {
+
+  0%{
+    transform:translateX(-80px) translateY(40px) rotate(-8deg);
+    opacity:0;
+  }
+
+  8%{
+    opacity:1;
+  }
+
+  25%{
+    transform:translateX(250px) translateY(-40px) rotate(6deg);
+  }
+
+  50%{
+    transform:translateX(650px) translateY(20px) rotate(-5deg);
+  }
+
+  75%{
+    transform:translateX(1050px) translateY(-35px) rotate(8deg);
+  }
+
+  100%{
+    transform:translateX(1500px) translateY(10px) rotate(0deg);
+    opacity:0;
+  }
+
+}
+
+.animate-offering-butterfly{
+  animation:offeringButterfly 18s linear infinite;
+}
+/* ====================================================== */
+/* Premium Glass Shine */
+/* ====================================================== */
+
+.service-chip-shine{
+
+    position:absolute;
+
+    top:0;
+    bottom:0;
+
+    width:34%;
+
+    background:
+
+    linear-gradient(
+    145deg,
+    rgba(255,255,255,.42),
+    rgba(255,255,255,.18)
+    );
+
+    backdrop-filter:
+    blur(18px);
+
+    -webkit-backdrop-filter:
+    blur(18px);
+
+    border:
+
+    1px solid rgba(255,255,255,.45);  
+
+    transform:skewX(-22deg);
+
+    animation:
+    serviceGlassSweep 45s linear infinite;
+
+    pointer-events:none;
+
+}
+
+/* ====================================================== */
+/* Glass Sweep Animation */
+/* ====================================================== */
+
+@keyframes serviceGlassSweep{
+
+    0%{
+        left:-45%;
+    }
+
+    7%{
+        left:125%;
+    }
+
+    100%{
+        left:125%;
+    }
+
+}
+
+/* ====================================================== */
+/* Premium Hover */
+/* ====================================================== */
+
+.service-card{
+
+    transition:
+    transform .5s ease,
+    box-shadow .5s ease,
+    border-color .5s ease;
+
+}
+
+.service-card:hover{
+
+    transform:
+    translateY(-6px)
+    scale(1.02);
+
+    box-shadow:
+
+    0 22px 55px rgba(0,0,0,.08),
+
+    0 8px 24px rgba(79,143,92,.08);
+
+}
+
+@keyframes peacockSway {
+  0%,100% {
+    transform: rotate(-0.5deg);
+  }
+
+  50% {
+    transform: rotate(2deg);
+  }
+}
+
+.peacock {
+  transform-origin: bottom center;
+  animation: peacockSway 4s ease-in-out infinite;
+  display: inline-block;
+}
+@keyframes iconPulse {
+
+  0%,12%,100%{
+    transform:scale(1);
+  }
+
+  6%{
+    transform:scale(1.35);
+  }
+
+}
+
+.iconPulse{
+    display:inline-flex;
+    animation:iconPulse 21s infinite ease-in-out;
+    transform-origin:center;
+    will-change:transform;
+}
+@keyframes symbolFade {
+
+  0%{
+    opacity:0;
+    transform:translateY(12px);
+  }
+
+  15%{
+    opacity:1;
+    transform:translateY(0);
+  }
+
+  85%{
+    opacity:1;
+  }
+
+  100%{
+    opacity:0;
+    transform:translateY(-12px);
+  }
+
+}
+
+.symbolFade{
+    animation:symbolFade 10s ease-in-out;
+}
+
+/* Peacock */
+
+@keyframes peacockSway {
+
+  0%,100%{
+    transform:rotate(-0.15deg);
+  }
+
+  50%{
+    transform:rotate(0.15deg);
+  }
+
+}
+
+.animate-peacock-sway{
+
+  transform-origin:bottom center;
+
+  animation:peacockSway 5s ease-in-out infinite;
+
+}
+
+
+/* Leaves */
+
+@keyframes offeringLeaf {
+
+  0%{
+    translate: 0 0;
+    rotate: 0deg;
+    opacity:0;
+  }
+
+  8%{
+    opacity:.9;
+  }
+
+  55%{
+    translate: -14px 90px;
+    rotate:180deg;
+    opacity:1;
+  }
+
+  82%{
+    translate: -10px 95px;
+    rotate:210deg;
+    opacity:1;
+  }
+
+  100%{
+    translate: -10px 95px;
+    rotate:210deg;
+    opacity:0;
+  }
+
+}
+
+.animate-offering-leaf{
+  animation-name: offeringLeaf;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+/* ========================================= */
+/* Philosophy Popup */
+/* ========================================= */
+
+.philosophyPopup{
+
+    animation:
+    philosophyPopup .28s ease;
+
+}
+
+@keyframes philosophyPopup{
+
+    from{
+
+        opacity:0;
+
+        transform:
+        scale(.95);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:
+        scale(1);
+
+    }
+
 }

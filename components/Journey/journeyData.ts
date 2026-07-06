@@ -1,0 +1,41 @@
+export const journey = [
+  {
+    id: 1,
+    title: "Meet Yourself",
+    color: "text-[#453C36]",
+    x:100,
+    y:80,
+  },
+
+  {
+    id: 2,
+    title: "Understand",
+    color: "text-[#59745A]",
+    x:380,
+    y:40,
+  },
+
+  {
+    id: 3,
+    title: "Heal",
+    color: "text-[#8C6C4B]",
+    x:540,
+    y:305,
+  },
+
+  {
+    id: 4,
+    title: "Grow",
+    color: "text-[#6A7C5A]",
+    x:850,
+    y:340,
+  },
+
+  {
+    id: 5,
+    title: "Bloom",
+    color: "text-[#AF8D3E]",
+    x:1115,
+    y:540,
+  },
+];
