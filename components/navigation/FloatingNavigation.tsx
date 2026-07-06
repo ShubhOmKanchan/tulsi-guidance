@@ -29,6 +29,7 @@ export default function FloatingNavigation({
   const isTop = config.position === "top";
   const [mobileOpen, setMobileOpen] = useState(false);
   const [open, setOpen] = useState(false);
+  const [selectedImage, setSelectedImage] = useState<string | null>(null);
   const [hideMenu, setHideMenu] = useState(false);
 
     useEffect(() => {
@@ -75,18 +76,18 @@ export default function FloatingNavigation({
     )}
 
     <nav
-      className={`
-        hidden
-        lg:block
-        fixed
-        z-[999]
-        ${
-          isTop
-            ? "top-8 left-1/2 -translate-x-1/2"
-            : "top-1/2 left-3 -translate-y-1/2"
-        }
-      `}
-    >
+        className={`
+            hidden
+            lg:block
+            absolute
+            z-[99999]
+            ${
+            isTop
+                ? "top-8 left-1/2 -translate-x-1/2"
+                : "top-1/2 left-3 -translate-y-1/2"
+            }
+        `}
+        >
       <div
         className={`
           flex

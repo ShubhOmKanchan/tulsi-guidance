@@ -5,9 +5,26 @@ import SymbolCarouselMobile from "./SymbolCarouselMobile";
 import SymbolCarousel from "./SymbolCarousel";
 
 const stories = [
-  { title: "Journey" },
-  { title: "Gratitude" },
-  { title: "Tulsi Guidance" },
+  {
+    title: "Journey",
+    images: [
+      "/hero/backgrounds/4.png",
+      "/hero/backgrounds/2.png",
+    ],
+  },
+  {
+    title: "Gratitude",
+    images: [
+      "/hero/backgrounds/5.png",
+    ],
+  },
+  {
+    title: "Tulsi Guidance",
+    images: [
+      "/hero/backgrounds/4.png",
+      "/hero/backgrounds/5.png",
+    ],
+  },
 ];
 
 export default function StoriesHeroMobile() {
@@ -36,8 +53,9 @@ export default function StoriesHeroMobile() {
         <div className="mt-12 -translate-y-52 flex flex-col gap-8">
         {stories.map((story) => (
             <StoryCardMobile
-            key={story.title}
-            title={story.title}
+              key={story.title}
+              title={story.title}
+              images={story.images}
             />
         ))}
         </div>

@@ -1,12 +1,27 @@
 "use client";
 
-interface StoryCardMobileProps {
+import Image from "next/image";
+import { useEffect, useState } from "react";
+
+interface StoryCardProps {
   title: string;
+  images: string[];
 }
 
-export default function StoryCardMobile({
+export default function StoryCard({
   title,
-}: StoryCardMobileProps) {
+  images,
+}: StoryCardProps) {
+
+  const [current, setCurrent] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrent((prev) => (prev + 1) % images.length);
+    }, 12000);
+
+    return () => clearInterval(interval);
+  }, [images]);
   return (
     <div
         className="
@@ -37,28 +52,31 @@ export default function StoryCardMobile({
 
       <div
         className="
-          h-[430px]
-
-          bg-gradient-to-br
-          from-[#F7F3EC]
-          via-[#EEF7F3]
-          to-[#EAF3FA]
-
-          flex
-          items-center
-          justify-center
+            relative
+            h-[470px]
+            overflow-hidden
         "
-      >
-        <span
-          className="
-            text-[#9A9A9A]
-            text-xl
-            tracking-[0.08em]
-          "
         >
-          Reel
-        </span>
-      </div>
+        {images.map((image, index) => (
+            <Image
+            key={image}
+            src={image}
+            alt={title}
+            fill
+            priority={index === 0}
+            className={`
+                object-cover
+                transition-opacity
+                duration-[1800ms]
+                ${
+                current === index
+                    ? "opacity-100"
+                    : "opacity-0"
+                }
+            `}
+            />
+        ))}
+        </div>
 
       {/* Footer */}
 

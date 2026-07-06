@@ -4,8 +4,9 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 
 const images = [
-  "/Vrinda/Founder.png",
+  "/Vrinda/founder.png",
   "/Vrinda/Founder_1.png",
+  "/Vrinda/f1.png",
   "/Vrinda/Founder_2.png",
 ];
 

@@ -10,8 +10,31 @@ import TulsiPlant from "@/components/hero/TulsiPlant";
 import ButterflyField from "./bf1";
 import StoriesHeroMobile from "./StoriesHeroMobile";
 
+const stories = [
+  {
+    title: "Journey",
+    images: [
+      "/hero/backgrounds/4.png",
+      "/hero/backgrounds/2.png",
+    ],
+  },
+  {
+    title: "Gratitude",
+    images: [
+      "/hero/backgrounds/4.png",
+    ],
+  },
+  {
+    title: "Tulsi Guidance",
+    images: [
+      "/hero/backgrounds/2.png",
+      "/hero/backgrounds/5.png",
+    ],
+  },
+];
 export default function StoriesHero() {
   return (
+    
     <section
       className="
         relative
@@ -21,7 +44,9 @@ export default function StoriesHero() {
       "
     >
       {/* Navbar */}
-      <FloatingNavigation page="stories" />
+      <FloatingNavigation page="stories"/>
+      <div className="h-14" />
+      <div className="absolute inset-0 z-0 pointer-events-none">
 
       {/* Background */}
       <Bamboo />
@@ -171,21 +196,49 @@ export default function StoriesHero() {
         }}
       />
 
+      </div>
+      <div className="relative z-20">
 
-      <div className="relative z-10">
-
-        {/* Spacer */}
-        <div className="h-16" />
 
         {/* Three Story Cards */}
         <div className="flex justify-center gap-14">
-          <StoryCard title="Journey" />
-          <StoryCard title="Gratitude" />
-          <StoryCard title="Tulsi Guidance" />
+        {stories.map((story) => (
+            <StoryCard
+            key={story.title}
+            title={story.title}
+            images={story.images}
+            />
+        ))}
         </div>
 
         {/* Space */}
-        <div className="blockh-14" />
+        <div className="h-14" />
+
+        {/* Desktop Heading */}
+        <div className="hidden lg:block text-center">
+        <h2
+            className="
+            font-[var(--font-heading)]
+            text-5xl
+            text-[#2E2E2E]
+            "
+        >
+            Sacred Symbols
+        </h2>
+
+        <p
+            className="
+            mt-5
+            text-[17px]
+            leading-8
+            text-[#666]
+            "
+        >
+            Discover the deeper meaning behind the sacred elements that
+            accompany every healing journey.
+        </p>
+
+        </div>
 
         <div className="block lg:hidden">
             <StoriesHeroMobile />

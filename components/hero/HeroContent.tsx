@@ -102,7 +102,7 @@ export default function HeroContent() {
                 relative
                 inline-flex
                 items-center
-                justify-center
+                justify-start
                 overflow-hidden
                 rounded-full
                 bg-gradient-to-r
@@ -110,7 +110,7 @@ export default function HeroContent() {
                 via-[#3D9D83]
                 to-[#4C93D1]
                 h-[54px]
-                w-full
+                w-[220px]
                 justify-center
                 sm:w-auto
                 sm:min-w-[210px]
@@ -130,6 +130,7 @@ export default function HeroContent() {
                 hover:scale-[1.03]
                 active:scale-[0.98]
             "
+            style={{paddingLeft: "10px"}}
             >
 
             {/* Moving Light */}
@@ -149,7 +150,7 @@ export default function HeroContent() {
                 "
             />
 
-            <span className="relative flex items-center text-white font-semibold tracking-[0.01em]">
+            <span className="relative flex gap-3 items-center text-white font-semibold tracking-[0.01em]">
 
                 Begin Your Journey
 
@@ -182,6 +183,7 @@ export default function HeroContent() {
                 duration-300
                 hover:text-[#2E6F58]
             "
+            style={{paddingLeft: "10px"}}
             >
 
             <span className="relative">

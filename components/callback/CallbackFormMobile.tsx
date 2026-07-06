@@ -78,8 +78,8 @@ export default function CallbackFormMobile() {
           items-center
           justify-center
 
-          w-58
-          h-98
+          w-48
+          h-48
 
           rounded-full
           border-[3px]
@@ -99,12 +99,13 @@ export default function CallbackFormMobile() {
           <path d="M20 6L9 17L4 12" />
         </svg>
       </div>
+      <div className="h-10"></div>
 
       <h2 className="mt-8 font-serif text-4xl lg:text-[70px] text-[#2F2A27]">
         Request Received
       </h2>
 
-      <p className="mt-4 text-[18px] leading-8 text-[#6B6B6B]">
+      <p className="mt-4 text-[16px] leading-8 text-[#6B6B6B]">
         Thank you for reaching out.
         <br />
         Our team will contact you within 24 hours.

@@ -16,7 +16,7 @@ const butterflies = [
     bottom: "12%",
     width: 34,
     duration: "17s",
-    delay: "15s",
+    delay: "1s",
   },
 ];
 

@@ -47,13 +47,13 @@ export const navigationConfig = {
   },
   stories: {
     position: "top",
-    callbackDirection: "horizontal",
     links: [
         { label: "Home", href: "/" },
         { label: "Philosophy", href: "/philosophy" },
         { label: "Offerings", href: "/offerings" },
         { label: "Contact", href: "/contact" },
     ],
+    callbackDirection: "horizontal",
     },
     contact: {
     position: "top",
