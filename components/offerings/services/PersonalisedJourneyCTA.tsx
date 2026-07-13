@@ -173,9 +173,7 @@ export default function PersonalisedJourneyCTA() {
                 "
                style={{ paddingLeft: "10px",paddingBottom: "10px" }}
             >
-                Get in touch to personalise your session. We'll recommend the
-                most suitable combination of offerings based on your present
-                situation. Click to Chat with us on WhatsApp
+                Every engagement begins with an initial conversation to understand whether this way of working feels aligned for you.
             </p>
             </div>
         </div>

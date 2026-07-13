@@ -55,7 +55,7 @@ export default function ContactPageMobile() {
           text-[#666]
         "
       >
-        Stay connected with us through your preferred platform.
+        If you feel drawn to this work, you're welcome to reach out for an initial conversation.
       </p>
 
       <div className="h-[20px]" />

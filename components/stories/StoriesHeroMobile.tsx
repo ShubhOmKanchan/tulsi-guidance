@@ -69,7 +69,7 @@ export default function StoriesHeroMobile() {
             -translate-y-45
         "
         >
-        Sacred Symbols
+        Nature & Symbolism
         </h2>
 
         <p
@@ -82,8 +82,7 @@ export default function StoriesHeroMobile() {
             -translate-y-45
         "
         >
-        Discover the deeper meaning behind the sacred elements that
-        accompany every healing journey.
+        Discover the deeper meaning behind the natural symbols that reflect awareness, resilience and inner alignment.
         </p>
 
         <div className="hidden lg:block">

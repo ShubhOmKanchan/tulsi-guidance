@@ -4,10 +4,10 @@ export const offerings = [
 
     eyebrow: "01",
 
-    title: "Inner Healing",
+    title: "Foundational Clarity",
 
     tagline:
-      "Release emotional burdens and reconnect with your authentic self.",
+      "Gain clarity and orientation before taking your next meaningful step.",
 
     duration: "120 Minutes",
 
@@ -33,10 +33,10 @@ export const offerings = [
 
     eyebrow: "02",
 
-    title: "Relationship Guidance",
+    title: "Inner Alignment",
 
     tagline:
-      "Understand relationship dynamics and build healthier emotional connections.",
+      "A steady companion journey for grounding, clarity and inner alignment.",
 
     duration: "25 Weeks",
 
@@ -62,10 +62,10 @@ export const offerings = [
 
     eyebrow: "03",
 
-    title: "Life Guidance",
+    title: "Immersion Journey",
 
     tagline:
-      "Navigate career, family and personal crossroads with greater confidence.",
+      "Long-term companioning for deeper reinvention and lasting inner alignment.",
 
     duration: "11 Months",
 

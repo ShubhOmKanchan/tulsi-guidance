@@ -33,7 +33,7 @@ export default function ServicesHeader() {
           text-[#2E2E2E]
         "
       >
-        Every Journey Is Uniquely Yours
+        Every Journey Is Personal
       </h2>
 
       {/* Description */}
@@ -48,11 +48,7 @@ export default function ServicesHeader() {
           mx-auto
         "
       >
-        Every individual arrives with a unique story, intention and
-        life experience. These offerings are designed to gently support
-        emotional healing, self-discovery, spiritual growth and
-        practical guidance. Sessions may also be thoughtfully combined
-        into a completely personalised journey based on your needs.
+        Every individual arrives with a unique story, life experience and personal circumstances. These one-to-one engagements support clarity, awareness and inner alignment through thoughtful companioning during important life transitions.
       </p>
       <div className="h-[30px]" />
 

@@ -9,7 +9,7 @@ export const journey = [
 
   {
     id: 2,
-    title: "Understand",
+    title: "Awareness",
     color: "text-[#59745A]",
     x:380,
     y:40,
@@ -17,7 +17,7 @@ export const journey = [
 
   {
     id: 3,
-    title: "Heal",
+    title: "Clarity",
     color: "text-[#8C6C4B]",
     x:540,
     y:305,
@@ -25,7 +25,7 @@ export const journey = [
 
   {
     id: 4,
-    title: "Grow",
+    title: "Alignment",
     color: "text-[#6A7C5A]",
     x:850,
     y:340,
@@ -33,7 +33,7 @@ export const journey = [
 
   {
     id: 5,
-    title: "Bloom",
+    title: "Integration",
     color: "text-[#AF8D3E]",
     x:1115,
     y:540,

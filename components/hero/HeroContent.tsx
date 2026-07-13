@@ -45,8 +45,7 @@ export default function HeroContent() {
         lg:leading-10
         "
       >
-        Compassionate guidance rooted in emotional healing,
-        conscious awareness and inner transformation.
+        Private guidance rooted in clarity, conscious awareness, inner alignment and life transitions.
       </p>
 
       {/* Divider */}
@@ -59,11 +58,11 @@ export default function HeroContent() {
 
         <div>
           <h3 className="font-serif text-4xl text-[var(--primary)]">
-            25+
+            10+
           </h3>
 
           <p className="mt-2 text-xs uppercase tracking-[0.2em] lg:tracking-[0.35em] text-stone-500">
-            Years of Experience
+            Years of Personal Guidance
           </p>
         </div>
 
@@ -73,17 +72,17 @@ export default function HeroContent() {
           </h3>
 
           <p className="mt-2 text-xs uppercase tracking-[0.2em] lg:tracking-[0.35em] text-stone-500">
-            Lives Guided
+            Individuals Supported
           </p>
         </div>
 
         <div>
           <h3 className="font-serif text-4xl text-[var(--primary)]">
-            1 on 1
+            Private One-to-One
           </h3>
 
           <p className="mt-2 text-xs uppercase tracking-[0.2em] lg:tracking-[0.35em] text-stone-500">
-            Sessions
+            Practice
           </p>
         </div>
 
@@ -152,7 +151,7 @@ export default function HeroContent() {
 
             <span className="relative flex gap-3 items-center text-white font-semibold tracking-[0.01em]">
 
-                Begin Your Journey
+                Begin the Conversation
 
                 <Sparkles
                     className="
@@ -188,7 +187,7 @@ export default function HeroContent() {
 
             <span className="relative">
 
-                Explore Philosophy
+                Explore the Work
 
                 <span
                 className="

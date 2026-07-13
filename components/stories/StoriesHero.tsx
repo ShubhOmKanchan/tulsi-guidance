@@ -223,7 +223,7 @@ export default function StoriesHero() {
             text-[#2E2E2E]
             "
         >
-            Sacred Symbols
+            Nature & Symbolism
         </h2>
 
         <p
@@ -234,8 +234,7 @@ export default function StoriesHero() {
             text-[#666]
             "
         >
-            Discover the deeper meaning behind the sacred elements that
-            accompany every healing journey.
+            Discover the deeper meaning behind the natural symbols that reflect awareness, resilience and inner alignment.
         </p>
 
         </div>
