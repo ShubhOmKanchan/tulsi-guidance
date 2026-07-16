@@ -19,7 +19,7 @@ export const journey = [
     id: 3,
     title: "Clarity",
     color: "text-[#8C6C4B]",
-    x:540,
+    x:520,
     y:305,
   },
 
@@ -35,7 +35,7 @@ export const journey = [
     id: 5,
     title: "Integration",
     color: "text-[#AF8D3E]",
-    x:1115,
+    x:1015,
     y:540,
   },
 ];

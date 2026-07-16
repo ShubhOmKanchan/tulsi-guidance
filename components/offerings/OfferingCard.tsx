@@ -87,7 +87,7 @@ export default function OfferingCard({
           absolute
 
           left-[122px]
-          top-[108px]
+          top-[113px]
 
           w-[280px]
 
@@ -104,6 +104,7 @@ export default function OfferingCard({
           className="
             mt-0
             -ml-2
+            text-[25px]
 
             font-[var(--font-heading)]
 

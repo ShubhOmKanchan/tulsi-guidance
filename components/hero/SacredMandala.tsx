@@ -4,8 +4,8 @@ export default function SacredMandala() {
       className="
         absolute
 
-        left-[88px]
-        top-[150px]
+        left-[87px]
+        top-[148px]
         -translate-x-1/2
         -translate-y-1/2
 
@@ -32,7 +32,7 @@ export default function SacredMandala() {
         md:opacity-[0.25]
 
         lg:right-[966px]
-        lg:top-[360px]
+        lg:top-[352px]
         lg:-translate-y-1/2
         lg:w-[470px]
         lg:h-[470px]

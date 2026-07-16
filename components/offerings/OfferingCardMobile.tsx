@@ -86,12 +86,12 @@ export default function OfferingCardMobile({
             mt-6
             font-[var(--font-heading)]
             text-[20px]
-            w-40
+            w-37
             text-left
             leading-tight
             text-[#2F2F2F]
           "
-          style={{ paddingLeft: "21px"}}
+          style={{ paddingLeft: "17px"}}
         >
           {offering.title}
         </h3>
@@ -101,7 +101,7 @@ export default function OfferingCardMobile({
         <p
           className="
             ml-40
-            text-[12px]
+            text-[10px]
             w-48
             leading-4
             text-[#666]

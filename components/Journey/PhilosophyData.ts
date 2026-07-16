@@ -26,7 +26,7 @@ export const philosophyItems: {
 
   {
     id: "understand",
-    title: "Understand",
+    title: "Awareness",
     icon: Brain,
     position: "right",
     description:
@@ -35,7 +35,7 @@ export const philosophyItems: {
 
   {
     id: "heal",
-    title: "Heal",
+    title: "Clarity",
     icon: HeartHandshake,
     position: "bottom",
     description:
@@ -44,7 +44,7 @@ export const philosophyItems: {
 
   {
     id: "grow",
-    title: "Grow",
+    title: "Alignment",
     icon: Sprout,
     position: "top",
     description:
@@ -53,7 +53,7 @@ export const philosophyItems: {
 
   {
     id: "bloom",
-    title: "Bloom",
+    title: "Integration",
     icon: Flower2,
     position: "left",
     description:

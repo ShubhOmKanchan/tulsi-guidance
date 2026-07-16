@@ -33,7 +33,7 @@ export default function StoryCard({
 
             mx-auto
             w-full
-            max-w-[360px]
+            max-w-[430px]
 
             rounded-[28px]
 

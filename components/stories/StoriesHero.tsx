@@ -14,8 +14,8 @@ const stories = [
   {
     title: "Journey",
     images: [
-      "/hero/backgrounds/4.png",
-      "/hero/backgrounds/2.png",
+      "/hero/backgrounds/j1.png",
+      "/hero/backgrounds/j2.png",
     ],
   },
   {
@@ -27,7 +27,13 @@ const stories = [
   {
     title: "Tulsi Guidance",
     images: [
-      "/hero/backgrounds/2.png",
+      "/hero/backgrounds/3.png",
+      "/hero/backgrounds/4.png",
+      "/hero/backgrounds/6.png",
+      "/hero/backgrounds/7.png",
+      "/hero/backgrounds/8.png",
+      "/hero/backgrounds/9.png",
+      "/hero/backgrounds/10.png",
       "/hero/backgrounds/5.png",
     ],
   },

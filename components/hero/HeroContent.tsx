@@ -17,7 +17,11 @@ export default function HeroContent() {
         text-5xl
         leading-[0.9]
         tracking-[-0.04em]
-        text-stone-900
+        bg-gradient-to-r
+        from-[#5BAF7B]
+        to-[#4C93D1]
+        bg-clip-text
+        text-transparent
         sm:text-6xl
         md:text-7xl
         lg:text-[72px]
@@ -54,7 +58,7 @@ export default function HeroContent() {
 
       {/* Statistics */}
 
-      <div className="mb-12 flex flex-wrap gap-x-10 gap-y-6 lg:mb-24 lg:flex-nowrap lg:gap-16">
+      <div className="mb-12 flex flex-wrap gap-x-10 gap-y-6 lg:mb-24 lg:flex-nowrap lg:gap-8">
 
         <div>
           <h3 className="font-serif text-4xl text-[var(--primary)]">
@@ -77,12 +81,12 @@ export default function HeroContent() {
         </div>
 
         <div>
-          <h3 className="font-serif text-4xl text-[var(--primary)]">
-            Private One-to-One
+          <h3 className="font-serif text-2xl text-[var(--primary)]"style={{paddingTop:"10px"}}>
+            One-to-One
           </h3>
 
           <p className="mt-2 text-xs uppercase tracking-[0.2em] lg:tracking-[0.35em] text-stone-500">
-            Practice
+            Private Practice
           </p>
         </div>
 
@@ -109,7 +113,7 @@ export default function HeroContent() {
                 via-[#3D9D83]
                 to-[#4C93D1]
                 h-[54px]
-                w-[220px]
+                w-[230px]
                 justify-center
                 sm:w-auto
                 sm:min-w-[210px]
@@ -118,6 +122,7 @@ export default function HeroContent() {
                 font-medium
                 tracking-[0.02em]
                 text-[18px]
+                lg:text-[16px]
                 font-semibold
                 tracking-[0.01em]
                 shadow-[0_18px_40px_rgba(56,133,103,0.22)]
@@ -149,7 +154,7 @@ export default function HeroContent() {
                 "
             />
 
-            <span className="relative flex gap-3 items-center text-white font-semibold tracking-[0.01em]">
+            <span className="relative flex gap-1 items-center text-white font-semibold tracking-[0.01em]">
 
                 Begin the Conversation
 
