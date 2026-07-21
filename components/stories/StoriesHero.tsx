@@ -21,7 +21,14 @@ const stories = [
   {
     title: "Gratitude",
     images: [
-      "/hero/backgrounds/4.png",
+      "/hero/backgrounds/s1.png",
+      "/hero/backgrounds/s2.png",
+      "/hero/backgrounds/s3.png",
+      "/hero/backgrounds/s4.png",
+      "/hero/backgrounds/s5.png",
+      "/hero/backgrounds/s6.png",
+      "/hero/backgrounds/s7.png",
+      "/hero/backgrounds/s8.png",
     ],
   },
   {
@@ -226,7 +233,11 @@ export default function StoriesHero() {
             className="
             font-[var(--font-heading)]
             text-5xl
-            text-[#2E2E2E]
+            bg-gradient-to-r
+            from-[#5BAF7B]
+            to-[#4C93D1]
+            bg-clip-text
+            text-transparent
             "
         >
             Nature & Symbolism
@@ -237,7 +248,11 @@ export default function StoriesHero() {
             mt-5
             text-[17px]
             leading-8
-            text-[#666]
+            bg-gradient-to-r
+            from-[#5BAF7B]
+            to-[#4C93D1]
+            bg-clip-text
+            text-transparent
             "
         >
             Discover the deeper meaning behind the natural symbols that reflect awareness, resilience and inner alignment.

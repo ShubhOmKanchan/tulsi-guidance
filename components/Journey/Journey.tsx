@@ -274,11 +274,14 @@ export default function Journey() {
                 font-serif
                 text-5xl
                 leading-tight
-
                 md:text-6xl
                 lg:text-7xl
                 leading-[1.05]
-                text-[#2F2A27]
+                bg-gradient-to-r
+                from-[#5BAF7B]
+                to-[#4C93D1]
+                bg-clip-text
+                text-transparent
                 "
             >
                 Your Healing Journey
@@ -292,6 +295,11 @@ export default function Journey() {
                 text-lg
                 leading-9
                 px-6
+                bg-gradient-to-r
+                from-[#5BAF7B]
+                to-[#4C93D1]
+                bg-clip-text
+                text-transparent
 
                 lg:px-0
                 lg:text-[18px]

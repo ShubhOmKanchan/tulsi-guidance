@@ -15,7 +15,14 @@ const stories = [
   {
     title: "Gratitude",
     images: [
-      "/hero/backgrounds/4.png",
+      "/hero/backgrounds/s1.png",
+      "/hero/backgrounds/s2.png",
+      "/hero/backgrounds/s3.png",
+      "/hero/backgrounds/s4.png",
+      "/hero/backgrounds/s5.png",
+      "/hero/backgrounds/s6.png",
+      "/hero/backgrounds/s7.png",
+      "/hero/backgrounds/s8.png",
     ],
   },
   {
@@ -48,7 +55,11 @@ export default function StoriesHeroMobile() {
             font-[var(--font-heading)]
             text-[52px]
             leading-none
-            text-[#2E2E2E]
+            bg-gradient-to-r
+            from-[#5BAF7B]
+            to-[#4C93D1]
+            bg-clip-text
+            text-transparent
              -translate-y-61
           "
         >
@@ -66,30 +77,41 @@ export default function StoriesHeroMobile() {
         ))}
         </div>
         </div>
+        <div className="mt-12 -translate-y-47">
       <h2
         className="
             text-center
             font-[var(--font-heading)]
             text-5xl
-            text-[#2E2E2E]
-            -translate-y-45
+            bg-gradient-to-r
+            from-[#5BAF7B]
+            to-[#4C93D1]
+            bg-clip-text
+            text-transparent
         "
         >
         Nature & Symbolism
         </h2>
+        </div>
+
+        <div className="mt-12 -translate-y-43">
 
         <p
-        className="
+          className="
             mt-5
             text-center
             text-[17px]
             leading-8
-            text-[#666]
-            -translate-y-45
-        "
+            bg-gradient-to-r
+            from-[#5BAF7B]
+            to-[#4C93D1]
+            bg-clip-text
+            text-transparent
+          "
         >
         Discover the deeper meaning behind the natural symbols that reflect awareness, resilience and inner alignment.
         </p>
+        </div>
 
         <div className="hidden lg:block">
           <SymbolCarousel />

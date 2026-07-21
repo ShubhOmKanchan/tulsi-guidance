@@ -53,7 +53,7 @@ export default function StoryCard({
       <div
         className="
             relative
-            h-[470px]
+            h-[335px]
             overflow-hidden
         "
         >
@@ -65,7 +65,7 @@ export default function StoryCard({
             fill
             priority={index === 0}
             className={`
-                object-cover
+                object-contain
                 transition-opacity
                 duration-[1800ms]
                 ${
@@ -92,8 +92,13 @@ export default function StoryCard({
             font-serif
             text-[30px]
             leading-tight
-            text-[#2F2A27]
+            bg-gradient-to-r
+            from-[#5BAF7B]
+            to-[#4C93D1]
+            bg-clip-text
+            text-transparent
           "
+          style={{paddingBottom:"10px"}}
         >
           {title}
         </h3>

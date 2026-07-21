@@ -56,7 +56,7 @@ export default function StoryCard({
       <div
         className="
             relative
-            h-[470px]
+            h-[520px]
             overflow-hidden
         "
         >
@@ -85,7 +85,7 @@ export default function StoryCard({
 
       <div
         className="
-          h-[100px]
+          h-[40px]
 
           flex
           flex-col
@@ -97,7 +97,11 @@ export default function StoryCard({
           className="
             font-serif
             text-[34px]
-            text-[#2F2A27]
+            bg-gradient-to-r
+            from-[#5BAF7B]
+            to-[#4C93D1]
+            bg-clip-text
+            text-transparent
           "
         >
           {title}

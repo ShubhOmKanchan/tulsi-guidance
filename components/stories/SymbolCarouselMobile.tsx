@@ -62,7 +62,11 @@ export default function SymbolCarouselMobile() {
             className="
               font-serif
               text-[34px]
-              text-[#2F2A27]
+              bg-gradient-to-r
+              from-[#5BAF7B]
+              to-[#4C93D1]
+              bg-clip-text
+              text-transparent
             "
             style={{paddingBottom:"10px"}}
           >
@@ -131,7 +135,11 @@ export default function SymbolCarouselMobile() {
               text-center
               text-[15px]
               leading-8
-              text-[#5B5B5B]
+              bg-gradient-to-r
+              from-[#5BAF7B]
+              to-[#4C93D1]
+              bg-clip-text
+              text-transparent
             "
             style={{paddingTop:"10px"}}
           >

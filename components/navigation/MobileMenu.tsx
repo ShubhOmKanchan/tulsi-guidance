@@ -78,7 +78,7 @@ export default function MobileMenu({
                     inset-0
                     m-auto
 
-                    opacity-[0.4]
+                    opacity-[0.2]
 
                     pointer-events-none
                     select-none
@@ -90,11 +90,8 @@ export default function MobileMenu({
 
           {/* Header */}
 
-          <div className="flex items-center justify-between px-6 py-6" style={{paddingTop:"10px",paddingLeft:"15px"}}>
+          <div className="flex items-center justify-between px-6 py-6" style={{paddingTop:"15px",paddingLeft:"15px"}}>
 
-            <h2 className="font-serif text-3xl text-stone-900">
-              Tulsi Guidance
-            </h2>
 
             <button
               onClick={onClose}
@@ -104,8 +101,9 @@ export default function MobileMenu({
                 transition
                 hover:bg-stone-100
               "
+              style={{paddingLeft:"221px"}}
             >
-              <X className="h-6 w-6 text-stone-700" />
+              <X className="h-9 w-9 text-stone-700" />
             </button>
 
           </div>
@@ -172,7 +170,7 @@ export default function MobileMenu({
 
           {/* Callback */}
 
-          <div className="pb-10 flex justify-center" style={{paddingBottom:"60px"}}>
+          <div className="pb-10 flex justify-center" style={{paddingBottom:"45px"}}>
 
             <button
               onClick={() => {

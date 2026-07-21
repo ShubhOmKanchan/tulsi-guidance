@@ -34,7 +34,11 @@ export default function ContactPageMobile() {
           font-[var(--font-heading)]
           text-[52px]
 
-          text-[#2E2E2E]
+          bg-gradient-to-r
+          from-[#5BAF7B]
+          to-[#4C93D1]
+          bg-clip-text
+          text-transparent
           -translate-y-1
         "
       >
@@ -51,8 +55,11 @@ export default function ContactPageMobile() {
 
           text-[17px]
           leading-8
-
-          text-[#666]
+          bg-gradient-to-r
+          from-[#5BAF7B]
+          to-[#4C93D1]
+          bg-clip-text
+          text-transparent
         "
       >
         If you feel drawn to this work, you're welcome to reach out for an initial conversation.

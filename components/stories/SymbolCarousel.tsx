@@ -131,6 +131,7 @@ export default function SymbolCarousel() {
                     symbolFade
 
                     w-[450px]
+              
 
                     flex
                     flex-col
@@ -142,7 +143,11 @@ export default function SymbolCarousel() {
               className="
                 font-serif
                 text-5xl
-                text-[#2F2A27]
+                bg-gradient-to-r
+                from-[#5BAF7B]
+                to-[#4C93D1]
+                bg-clip-text
+                text-transparent
               "
               style={{paddingLeft: "90px"}}
             >
@@ -155,8 +160,11 @@ export default function SymbolCarousel() {
 
                 text-[16px]
                 leading-10
-
-                text-[#5B5B5B]
+                bg-gradient-to-r
+                from-[#5BAF7B]
+                to-[#4C93D1]
+                bg-clip-text
+                text-transparent
               "
               style={{paddingLeft: "90px",paddingTop: "9px"}}
             >
