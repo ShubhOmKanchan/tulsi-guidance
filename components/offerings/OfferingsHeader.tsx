@@ -115,7 +115,7 @@ export default function OfferingsHeader() {
       >
         Every offering has been thoughtfully created to
         meet you at a different stage of your inner
-        journey—from gaining clarity in the present
+        journey, from gaining clarity in the present
         moment to embracing profound and lasting
         transformation.
       </p>
@@ -128,7 +128,7 @@ export default function OfferingsHeader() {
           flex
           items-center
           justify-center
-          gap-6 lg:gap-171
+          gap-29 lg:gap-171
         "
       >
 
