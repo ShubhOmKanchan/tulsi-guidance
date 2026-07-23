@@ -125,7 +125,7 @@ export default function FloatingNavigation({
           : page === "offerings"
           ? "Offerings"
           : page === "stories"
-          ? "Stories"
+          ? "Reflections"
           : page === "contact"
           ? "Contact"
           : page === "home"

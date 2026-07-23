@@ -22,7 +22,7 @@ const iconMap = {
   Home: House,
   Philosophy: Sparkles,
   Offerings: Layers3,
-  Stories: BookOpen,
+  Reflections: BookOpen,
   Contact: Mail,
 };
 

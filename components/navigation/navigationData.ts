@@ -16,7 +16,7 @@ export const navigationConfig = {
         href: "/offerings",
       },
       {
-        label: "Stories",
+        label: "Reflections",
         href: "/stories",
       },
       {
@@ -39,7 +39,7 @@ export const navigationConfig = {
         href: "/",
       },
       {
-        label: "Stories",
+        label: "Reflections",
         href: "/stories",
       },
     ],
@@ -62,7 +62,7 @@ export const navigationConfig = {
       { label: "Home", href: "/" },
       { label: "Philosophy", href: "/philosophy" },
       { label: "Offerings", href: "/offerings" },
-      { label: "Stories", href: "/stories" },
+      { label: "Reflections", href: "/stories" },
     ],
   },
   home: {
@@ -71,7 +71,7 @@ export const navigationConfig = {
   links: [
     { label: "Philosophy", href: "/philosophy" },
     { label: "Offerings", href: "/offerings" },
-    { label: "Stories", href: "/stories" },
+    { label: "Reflections", href: "/stories" },
     { label: "Contact", href: "/contact" },
   ],
 },
