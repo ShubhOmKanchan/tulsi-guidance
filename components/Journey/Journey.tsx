@@ -284,7 +284,7 @@ export default function Journey() {
                 text-transparent
                 "
             >
-                Your Healing Journey
+                The Inner Journey
             </h2>
 
             <p
@@ -307,8 +307,7 @@ export default function Journey() {
                 text-stone-600
                 "
             >
-                Healing unfolds gently. Every step brings you closer to
-                clarity, compassion and a deeper connection with yourself.
+                Every meaningful change begins with awareness. Through reflection, clarity, alignment and integration, a deeper connection with yourself naturally unfolds.
             </p>
 
         </div>

@@ -414,10 +414,10 @@ export default function CallbackFormMobile() {
         "
       >
 
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-3"style={{paddingLeft:"10px"}}>
 
           <Image
-            src="/images/logos/LogoM.png"
+            src="/images/logos/m.png"
             alt="Tulsi Guidance"
             width={34}
             height={34}
@@ -480,7 +480,7 @@ export default function CallbackFormMobile() {
 
           text-white
 
-          text-[25px]
+          text-[21px]
           font-semibold
 
           shadow-lg

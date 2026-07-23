@@ -225,7 +225,7 @@ export default function StoriesHero() {
         </div>
 
         {/* Space */}
-        <div className="h-14" />
+        <div className="h-34" />
 
         {/* Desktop Heading */}
         <div className="hidden lg:block text-center">
@@ -240,7 +240,7 @@ export default function StoriesHero() {
             text-transparent
             "
         >
-            Nature & Symbolism
+            The Essence of Tulsi Guidance
         </h2>
 
         <p
@@ -255,7 +255,7 @@ export default function StoriesHero() {
             text-transparent
             "
         >
-            Discover the deeper meaning behind the natural symbols that reflect awareness, resilience and inner alignment.
+            Every symbol tells a story. Together, they reflect the philosophy, presence and purpose behind this work.
         </p>
 
         </div>

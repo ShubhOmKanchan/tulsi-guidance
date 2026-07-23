@@ -399,10 +399,10 @@ export default function CallbackForm() {
         <div className="flex items-center gap-3"style={{ marginLeft: "20px" }}>
 
           <Image
-            src="/images/logos/LogoM.png"
+            src="/images/logos/m.png"
             alt="Tulsi Guidance"
-            width={34}
-            height={34}
+            width={39}
+            height={39}
             className="object-contain"
             />
 

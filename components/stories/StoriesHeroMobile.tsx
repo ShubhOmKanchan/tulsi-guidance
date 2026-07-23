@@ -90,7 +90,7 @@ export default function StoriesHeroMobile() {
             text-transparent
         "
         >
-        Nature & Symbolism
+        The Essence of Tulsi Guidance
         </h2>
         </div>
 
@@ -109,7 +109,7 @@ export default function StoriesHeroMobile() {
             text-transparent
           "
         >
-        Discover the deeper meaning behind the natural symbols that reflect awareness, resilience and inner alignment.
+        Every symbol tells a story. Together, they reflect the philosophy, presence and purpose behind this work.
         </p>
         </div>
 

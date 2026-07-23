@@ -21,7 +21,7 @@ export const philosophyItems: {
     icon: UserRound,
     position: "bottom",
     description:
-      "Reconnect with your authentic self by understanding your strengths, emotions and inner patterns.",
+      "Pause and recognise where you stand today. Understand the experiences, patterns and values shaping your inner world.",
   },
 
   {
@@ -30,7 +30,7 @@ export const philosophyItems: {
     icon: Brain,
     position: "right",
     description:
-      "Gain clarity about your thoughts, relationships and life experiences through conscious reflection.",
+      "Notice your thoughts, emotions, relationships and life situations. See what is asking for attention, understanding or a new perspective.",
   },
 
   {
@@ -39,7 +39,7 @@ export const philosophyItems: {
     icon: HeartHandshake,
     position: "bottom",
     description:
-      "Release emotional burdens, nurture inner peace and create space for balance and acceptance.",
+      "As awareness deepens, confusion begins to settle. Clearer insight brings greater confidence in yourself and your next steps.",
   },
 
   {
@@ -48,7 +48,7 @@ export const philosophyItems: {
     icon: Sprout,
     position: "top",
     description:
-      "Develop resilience, wisdom and confidence while embracing continuous personal evolution.",
+      "Move forward with choices that feel authentic, balanced and aligned with who you are and where you are in life.",
   },
 
   {
@@ -57,6 +57,6 @@ export const philosophyItems: {
     icon: Flower2,
     position: "left",
     description:
-      "Express your fullest potential and live with purpose, harmony and joyful abundance.",
+      "Bring new awareness into everyday life through conscious choices. Small, consistent shifts create greater ease and confidence.",
   },
 ];
