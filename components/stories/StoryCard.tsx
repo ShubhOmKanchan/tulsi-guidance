@@ -6,22 +6,24 @@ import { useEffect, useState } from "react";
 interface StoryCardProps {
   title: string;
   images: string[];
+  interval?: number;
 }
 
 export default function StoryCard({
   title,
   images,
+  interval = 10000,
 }: StoryCardProps) {
-
   const [current, setCurrent] = useState(0);
 
   useEffect(() => {
-    const interval = setInterval(() => {
+    const timer = setInterval(() => {
       setCurrent((prev) => (prev + 1) % images.length);
-    }, 12000);
+    }, interval);
 
-    return () => clearInterval(interval);
-  }, [images]);
+    return () => clearInterval(timer);
+  }, [images, interval]);
+
   return (
     <div
       className="
@@ -52,34 +54,29 @@ export default function StoryCard({
         hover:-translate-y-2
       "
     >
-
       <div
         className="
-            relative
-            h-[520px]
-            overflow-hidden
+          relative
+          h-[520px]
+          overflow-hidden
         "
-        >
+      >
         {images.map((image, index) => (
-            <Image
+          <Image
             key={image}
             src={image}
             alt={title}
             fill
             priority={index === 0}
             className={`
-                object-cover
-                transition-opacity
-                duration-[1800ms]
-                ${
-                current === index
-                    ? "opacity-100"
-                    : "opacity-0"
-                }
+              object-cover
+              transition-opacity
+              duration-[1800ms]
+              ${current === index ? "opacity-100" : "opacity-0"}
             `}
-            />
+          />
         ))}
-        </div>
+      </div>
 
       {/* Footer */}
 

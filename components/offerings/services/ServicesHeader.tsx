@@ -48,7 +48,7 @@ export default function ServicesHeader() {
           mx-auto
         "
       >
-        Every individual arrives with a unique story, life experience and personal circumstances. These one-to-one engagements support clarity, awareness and inner alignment through thoughtful companioning during important life transitions.
+        Every individual arrives with a unique story, life experience and personal circumstances. Together, we explore the approach that feels most supportive for where you are today.
       </p>
       <div className="h-[30px]" />
 

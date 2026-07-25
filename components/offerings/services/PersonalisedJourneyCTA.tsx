@@ -130,7 +130,7 @@ export default function PersonalisedJourneyCTA() {
             "
             style={{ paddingLeft: "10px",paddingTop: "10px"}}
             >
-            PERSONALISED JOURNEY | NOT SURE WHICH OFFERING IS RIGHT FOR YOU?
+            PERSONALISED JOURNEY | NOT SURE WHERE TO BEGIN?
             </p>
 
             {/* Expandable text */}
@@ -173,7 +173,7 @@ export default function PersonalisedJourneyCTA() {
                 "
                style={{ paddingLeft: "10px",paddingBottom: "10px" }}
             >
-                Every engagement begins with an initial conversation to understand whether this way of working feels aligned for you.
+                Every journey begins with a conversation. Together, we'll explore the approach that feels most aligned with where you are today.
             </p>
             </div>
         </div>

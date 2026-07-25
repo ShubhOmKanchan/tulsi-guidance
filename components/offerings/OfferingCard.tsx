@@ -240,7 +240,7 @@ export default function OfferingCard({
             transition-all
             duration-300
 
-            hover:gap-8
+            hover:gap-4
           "
         >
 

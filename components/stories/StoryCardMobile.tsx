@@ -6,77 +6,75 @@ import { useEffect, useState } from "react";
 interface StoryCardProps {
   title: string;
   images: string[];
+  interval?: number;
 }
 
-export default function StoryCard({
+export default function StoryCardMobile({
   title,
   images,
+  interval = 10000,
 }: StoryCardProps) {
-
   const [current, setCurrent] = useState(0);
 
   useEffect(() => {
-    const interval = setInterval(() => {
+    const timer = setInterval(() => {
       setCurrent((prev) => (prev + 1) % images.length);
-    }, 12000);
+    }, interval);
 
-    return () => clearInterval(interval);
-  }, [images]);
+    return () => clearInterval(timer);
+  }, [images, interval]);
+
   return (
     <div
-        className="
-            block
-            lg:hidden
+      className="
+        block
+        lg:hidden
 
-            service-card
-            relative
+        service-card
+        relative
 
-            mx-auto
-            w-full
-            max-w-[430px]
+        mx-auto
+        w-full
+        max-w-[430px]
 
-            rounded-[28px]
+        rounded-[28px]
 
-            overflow-hidden
+        overflow-hidden
 
-            border
-            border-[#D7B46A]/30
+        border
+        border-[#D7B46A]/30
 
-            bg-white/75
-            backdrop-blur-xl
+        bg-white/75
+        backdrop-blur-xl
 
-            shadow-xl
-        "
-        >
+        shadow-xl
+      "
+    >
       {/* Reel */}
 
       <div
         className="
-            relative
-            h-[335px]
-            overflow-hidden
+          relative
+          h-[335px]
+          overflow-hidden
         "
-        >
+      >
         {images.map((image, index) => (
-            <Image
+          <Image
             key={image}
             src={image}
             alt={title}
             fill
             priority={index === 0}
             className={`
-                object-contain
-                transition-opacity
-                duration-[1800ms]
-                ${
-                current === index
-                    ? "opacity-100"
-                    : "opacity-0"
-                }
+              object-contain
+              transition-opacity
+              duration-[1800ms]
+              ${current === index ? "opacity-100" : "opacity-0"}
             `}
-            />
+          />
         ))}
-        </div>
+      </div>
 
       {/* Footer */}
 
@@ -98,7 +96,7 @@ export default function StoryCard({
             bg-clip-text
             text-transparent
           "
-          style={{paddingBottom:"10px"}}
+          style={{ paddingBottom: "10px" }}
         >
           {title}
         </h3>

@@ -2,52 +2,52 @@ import ServiceChip from "./ServiceChip";
 
 const services = [
   {
-    title: "Tarot Guidance",
-    category: "Guidance",
+    title: "Conscious Conversation",
+    category: "REFLECTION",
   },
   {
-    title: "Angel Card Reading",
-    category: "Guidance",
+    title: "Intuitive Guidance",
+    category: "CLARITY",
   },
   {
-    title: "Inner Child Healing",
-    category: "Healing",
+    title: "Vibrational Healing",
+    category: "REALIGNMENT",
   },
   {
-    title: "Emotional Healing",
-    category: "Healing",
+    title: "Bach Flower Remedies",
+    category: "EMOTIONAL SUPPORT",
   },
   {
-    title: "Relationship Guidance",
-    category: "Relationships",
+    title: "Switchwords & Affirmations",
+    category: "ALIGNMENT",
   },
   {
-    title: "Career Guidance",
-    category: "Life",
+    title: "Tarot & Oracle Guidance",
+    category: "DIVINE GUIDANCE",
   },
   {
-    title: "Life Guidance",
-    category: "Life",
+    title: "Angelic Therapy",
+    category: "ANGELIC SUPPORT",
   },
   {
-    title: "Decision Guidance",
-    category: "Life",
+    title: "Astrological Perspectives",
+    category: "INSIGHT",
   },
   {
-    title: "Switch Words",
-    category: "Energy",
+    title: "Personalised Companioning",
+    category: "EVOLUTION",
   },
   {
-    title: "Affirmations",
-    category: "Energy",
+    title: "Journalling & Reflection",
+    category: "PRACTICE",
   },
   {
-    title: "Manifestation Guidance",
-    category: "Growth",
+    title: "Mindfulness & Self-Awareness",
+    category: "INTEGRATION",
   },
   {
-    title: "Energy Cleansing",
-    category: "Energy",
+    title: "Personalised Energy Tools",
+    category: "CONTINUITY",
   },
 ];
 

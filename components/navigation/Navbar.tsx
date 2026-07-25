@@ -12,7 +12,6 @@ import NavbarContactPopover from "@/components/layout/NavbarContactPopover";
 import FloatingNavigation from "@/components/navigation/FloatingNavigation";
 
 const navItems = [
-  { name: "Home", href: "/" },
   { name: "Philosophy", href: "/philosophy" },
   { name: "Offerings", href: "/offerings" },
   { name: "Reflections", href: "/stories" },

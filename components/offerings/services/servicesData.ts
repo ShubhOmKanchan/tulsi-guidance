@@ -5,7 +5,7 @@ export interface Service {
 
 export const services: Service[] = [
 
-  { title: "Tarot Guidance", category: "Guidance" },
+  { title: "Conscious Conversation", category: "REFLECTION" },
 
   { title: "Angel Card Reading", category: "Guidance" },
 

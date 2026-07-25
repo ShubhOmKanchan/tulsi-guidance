@@ -150,8 +150,8 @@ export default function ServiceChip({
                 <p
                     className="
                         uppercase
-                        text-[10px]
-                        lg:text-[13px]
+                        text-[9px]
+                        lg:text-[12px]
                         tracking-[0.12em]
                         lg:tracking-[0.18em]
                         font-semibold
@@ -166,7 +166,8 @@ export default function ServiceChip({
                 <h3
                     className="
                         mt-1
-                        text-[18px]
+                        text-[12px]
+                        lg:text-[14px]
                         leading-none
                         font-[var(--font-heading)]
                         text-[#2E2E2E]
